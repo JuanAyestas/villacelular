@@ -1,0 +1,168 @@
+html {
+    font-family: "Indie Flower", cursive;
+}
+
+.mascotas h3 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.mascotas ol {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.mascotas li {}
+
+.parallax {
+    background-image: url(../img/casa1.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.boton {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 7px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 845px;
+}
+
+.titulos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {}
+
+.titulo2 {}
+
+.titulo3 {}
+
+.menu {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 5px 15px;
+    background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu2 ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    justify-content: center;
+}
+
+.menu2 li {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px 15px;
+    padding: 5px;
+    margin: 5px 15px 0px 15px;
+    background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
+}
+
+.menu2 li a {
+    color: black;
+    text-decoration: none;
+}
+
+.mascota {
+    display: flex;
+    flex-flow: wrap;
+    border: solid black;
+    border-radius: 15px 35px;
+    margin: 30px 0 30px 0;
+}
+
+.mascota2 {
+    display: flex;
+    flex-flow: wrap;
+    border: solid black;
+    border-radius: 15px 35px;
+}
+
+.imagenescel {
+    transform: rotate(90deg);
+    bottom: 50px;
+    border-radius: 25px 10px;
+}
+
+.imagenes {
+    margin: 40px 60px 0 60px;
+    border-radius: 10px 25px;
+}
+
+#belgie img {
+    left: 140px;
+}
+
+#poly img {
+    margin: 40px 35px 25px 10px;
+    left: 24px;
+    border-radius: 25px 10px;
+    transform: rotate(90deg);
+}
+
+#coco img {
+    border-radius: 10px 25px;
+    bottom: 50px;
+}
+
+.derecha {
+    float: right;
+    position: relative;
+    left: 40px;
+}
+
+.izquierda {
+    float: left;
+    position: relative;
+    bottom: 40px;
+}
+
+.lista li {
+    margin-left: 20px;
+}
