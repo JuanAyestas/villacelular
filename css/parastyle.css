@@ -456,23 +456,23 @@ html {
         background-image: none;
     }
     .mascotas h3 {
-        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-width: 0;
     }
     .mascotas span {
         border-bottom: 1px solid white;
     }
     .lista li {
-        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-width: 0;
         padding-top: 10px;
     }
     .menu li {
-        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-width: 0;
     }
     .titulo {
-        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-width: 0;
     }
     .titulo2 {
-        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-width: 0;
     }
     .mascota img,
     .mascota2 img {
