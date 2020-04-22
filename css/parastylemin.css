@@ -4,14 +4,14 @@ html {
 
 .mascotas h3 {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    color: white;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
     font-size: 40px;
     margin-left: 20px;
 }
 
 .mascotas ol {
-    color: white;
+    color: #fff;
     display: inline-block;
     font-size: 28px;
 }
@@ -21,12 +21,12 @@ html {
 }
 
 .mascotas img {
-    border: 3px solid black;
+    border: 3px solid #000;
 }
 
 .fondomasc {
     background-image: url(../img/casafoto2.jpg);
-    border: 3px solid black;
+    border: 3px solid #000;
     border-radius: 10px 25px;
     width: 100%;
     height: 100%;
@@ -54,8 +54,8 @@ html {
 
 .boton {
     background-image: url(../img/casafoto2.jpg);
-    color: white;
-    border: 2px solid black;
+    color: #fff;
+    border: 2px solid #000;
     border-radius: 12px;
     padding: 7px 12px;
     cursor: pointer;
@@ -76,16 +76,16 @@ html {
 
 .titulo {
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #000;
     font-size: 70px;
-    color: white;
+    color: #fff;
 }
 
 .titulo2 {
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #000;
     font-size: 50px;
-    color: white;
+    color: #fff;
 }
 
 .titulo3 {
@@ -115,8 +115,8 @@ html {
 
 .menu li a {
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-    color: white;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -140,25 +140,25 @@ html {
 
 .menu2 li {
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 5px 15px;
     padding: 5px;
-    margin: 5px 15px 0px 15px;
+    margin: 5px 15px 0;
     background-image: url(../img/casafoto2.jpg);
 }
 
 .menu2 li a {
     -webkit-text-stroke-width: 1.8px;
-    -webkit-text-stroke-color: black;
-    color: white;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
 .catmenu {
-    background-color: white;
+    background-color: #fff;
     border-radius: 50px 200px 200px 200px;
-    border: 0px;
-    color: black;
+    border: 0;
+    color: #000;
     line-height: 2;
     font-size: 40px;
     display: inline-block;
@@ -177,8 +177,6 @@ html {
     flex-flow: row wrap;
     border-radius: 15px 35px;
 }
-
-.mascota ol {}
 
 .mascota2 {
     margin: 30px;
@@ -253,7 +251,6 @@ html {
 }
 
 @media screen and (max-width: 800px) {
-    /* header */
     .contenedor {
         width: 100%;
     }
@@ -282,7 +279,6 @@ html {
     .menu ul {
         padding: 0;
     }
-    /* menu2 */
     .titulo3 {
         font-size: 30px;
     }
@@ -290,7 +286,7 @@ html {
         font-size: 25px;
     }
     .menu2 ul {
-        margin: 8px 0 8px 0;
+        margin: 8px 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
@@ -298,7 +294,6 @@ html {
     .menu2 li {
         padding: 1px;
     }
-    /* mascotas */
     .mascotas {
         text-align: center;
     }
@@ -317,16 +312,15 @@ html {
         font-size: 30px;
     }
     .lista {
-        margin-top: 0px;
+        margin-top: 0;
     }
     .lista li {
         -webkit-text-stroke-width: 0.9px;
-        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-color: #000;
     }
     .lista li:first-child {
         padding-top: 20px;
     }
-    .mascota2 ol {}
     .mascota2 li {
         display: block;
     }
@@ -336,7 +330,7 @@ html {
         position: static;
     }
     .contcoco img {
-        bottom: 0px;
+        bottom: 0;
     }
     .contpoly img {
         left: 0;
@@ -346,7 +340,7 @@ html {
         bottom: 0;
     }
     .imagenes {
-        margin: 0 25 0;
+        margin: 0 25px;
     }
 }
 
@@ -391,48 +385,34 @@ html {
         display: inline-block;
     }
     .menu2 li {
-        -webkit-text-stroke-width: 0.8px;
-        -webkit-text-stroke-color: black;
         font-size: 30px;
         text-align: center;
         width: 100%;
         display: block;
         border: 0;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #fff;
         border-radius: 0;
         background-image: none;
     }
     .menu2 li:first-child {
-        border-top: 2px solid white;
+        border-top: 2px solid #fff;
     }
     .menu li:first-child {
-        border-top: 2px solid white;
+        border-top: 2px solid #fff;
         margin-top: 20px;
     }
-    .lista li {
-        -webkit-text-stroke-width: 0.8px;
-        -webkit-text-stroke-color: black;
-    }
     .menu li {
-        -webkit-text-stroke-width: 0.9px;
-        -webkit-text-stroke-color: black;
-        margin: 0 50px 0 50px;
-        border-bottom: 2px solid white;
+        margin: 0 50px;
+        border-bottom: 2px solid #fff;
     }
     .titulo {
         margin-top: 25px;
-        -webkit-text-stroke-width: 0.8px;
-        -webkit-text-stroke-color: black;
-    }
-    .titulo2 {
-        -webkit-text-stroke-width: 0.8px;
-        -webkit-text-stroke-color: black;
     }
     .titulo3 {
         margin-bottom: 0;
     }
     .mascota img,
     .mascota2 img {
-        width: 240px;
+        width: 280px;
     }
 }
