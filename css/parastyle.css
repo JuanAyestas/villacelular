@@ -3,21 +3,43 @@ html {
 }
 
 .mascotas h3 {
-    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 40px;
     margin-left: 20px;
 }
 
 .mascotas ol {
+    color: white;
     display: inline-block;
-    font-size: 30px;
+    font-size: 24px;
 }
 
-.mascotas li {}
+.mascotas {
+    width: 100%;
+}
+
+.mascotas img {
+    border: 3px solid black;
+}
+
+.fondomasc {
+    background-image: url(../img/casafoto2.jpg);
+    border: 3px solid black;
+    border-radius: 10px 25px;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .parallax {
-    background-image: url(../img/casa1.jpg);
+    background-image: url(../img/casafoto1.jpg);
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,41 +47,59 @@ html {
 }
 
 .contenedor {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 100%;
+    width: 900px;
     margin: auto;
     position: relative;
 }
 
 .boton {
+    background-image: url(../img/casafoto2.jpg);
+    color: white;
     border: 2px solid black;
     border-radius: 12px;
     padding: 7px 12px;
     cursor: pointer;
+    margin-bottom: 10px;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 845px;
+    position: absolute;
+    right: 5px;
 }
 
 .titulos {
     width: 100%;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.titulo {}
+.titulo {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-size: 70px;
+    color: white;
+}
 
-.titulo2 {}
+.titulo2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+    color: white;
+}
 
-.titulo3 {}
+.titulo3 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
 
 .menu {
     font-size: 30px;
     font-weight: 700;
+    position: absolute;
+    right: 70px;
 }
 
 .menu ul {
@@ -70,17 +110,20 @@ html {
 }
 
 .menu li {
-    display: inline-block;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 20px 20px 0px 20px;
-    border-radius: 5px 15px;
-    background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
+    display: block;
+    margin: 30px;
 }
 
 .menu li a {
-    color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    color: white;
     text-decoration: none;
+}
+
+.menucont {
+    display: flex;
+    justify-content: center;
 }
 
 .menu2 {
@@ -89,9 +132,10 @@ html {
 }
 
 .menu2 ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row wrap;
-    margin: 0;
     justify-content: center;
 }
 
@@ -101,60 +145,85 @@ html {
     border-radius: 5px 15px;
     padding: 5px;
     margin: 5px 15px 0px 15px;
-    background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
+    background-image: url(../img/casafoto2.jpg);
 }
 
 .menu2 li a {
-    color: black;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-stroke-color: black;
+    color: white;
     text-decoration: none;
 }
 
 .mascota {
+    margin: 30px;
     display: flex;
-    flex-flow: wrap;
-    border: solid black;
+    flex-flow: row wrap;
     border-radius: 15px 35px;
-    margin: 30px 0 30px 0;
 }
 
+.mascota ol {}
+
 .mascota2 {
+    margin: 30px;
     display: flex;
     flex-flow: wrap;
-    border: solid black;
     border-radius: 15px 35px;
+}
+
+.mascota2 ol {
+    margin-right: 40px;
 }
 
 .imagenescel {
-    transform: rotate(90deg);
     bottom: 50px;
     border-radius: 25px 10px;
 }
 
 .imagenes {
-    margin: 40px 60px 0 60px;
+    margin: 40px 25px 0 60px;
     border-radius: 10px 25px;
 }
 
-#belgie img {
-    left: 140px;
+.contbelgie {
+    width: 100%;
 }
 
-#poly img {
-    margin: 40px 35px 25px 10px;
-    left: 24px;
+.contbruss {
+    width: 100%;
+}
+
+.contcrepa {
+    width: 100%;
+}
+
+.contritter {
+    width: 100%;
+}
+
+.contpoly {
+    width: 100%;
+}
+
+.contpoly img {
+    left: 40px;
     border-radius: 25px 10px;
-    transform: rotate(90deg);
+    margin: 40px 50px 5px 0;
 }
 
-#coco img {
-    border-radius: 10px 25px;
+.contcoco {
+    width: 100%;
+}
+
+.contcoco img {
     bottom: 50px;
+    border-radius: 10px 25px;
 }
 
 .derecha {
     float: right;
     position: relative;
-    left: 40px;
+    right: 40px;
 }
 
 .izquierda {
@@ -163,6 +232,83 @@ html {
     bottom: 40px;
 }
 
-.lista li {
-    margin-left: 20px;
+.lista li:first-child {
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 800px) {
+    /* header */
+    .contenedor {
+        width: 100%;
+    }
+    .titulo {
+        font-size: 50px;
+    }
+    .titulo2 {
+        font-size: 30px;
+    }
+    .parallax {
+        height: 450px;
+    }
+    .menu li {
+        font-size: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* menu2 */
+    .titulo3 {
+        font-size: 30px;
+    }
+    .menu2 {
+        font-size: 25px;
+    }
+    .menu2 ul {
+        margin: 8px 0 8px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .menu2 li {
+        padding: 1px;
+    }
+    /* mascotas */
+    .mascotas {
+        text-align: center;
+    }
+    .mascotas h3 {
+        margin-left: 0;
+        font-size: 35px;
+    }
+    .mascota ol {
+        margin-left: 0;
+        display: block;
+        padding: 0;
+    }
+    .mascota li {
+        display: block;
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .mascota2 ol {}
+    .mascota2 li {
+        display: block;
+    }
+    .derecha,
+    .izquierda {
+        float: none;
+        position: static;
+    }
+    .contcoco img {
+        bottom: 0px;
+    }
+    .contpoly img {
+        left: 0;
+        margin: 0;
+    }
+    .imagenescel {
+        bottom: 0;
+    }
+    .imagenes {
+        margin: 0 25 0;
+    }
 }
